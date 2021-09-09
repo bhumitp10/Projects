@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MyTest" time="0.039" tests="20" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/bhumit/Desktop/CS 342/Projects/bpate62Project3/project3Server/target/test-classes:/Users/bhumit/Desktop/CS 342/Projects/bpate62Project3/project3Server/target/classes:/Users/bhumit/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/Users/bhumit/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/Users/bhumit/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/bhumit/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/bhumit/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/Users/bhumit/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/Users/bhumit/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/Users/bhumit/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/Users/bhumit/.m2/repository/org/openjfx/javafx-controls/12.0.1/javafx-controls-12.0.1.jar:/Users/bhumit/.m2/repository/org/openjfx/javafx-controls/12.0.1/javafx-controls-12.0.1-mac.jar:/Users/bhumit/.m2/repository/org/openjfx/javafx-graphics/12.0.1/javafx-graphics-12.0.1.jar:/Users/bhumit/.m2/repository/org/openjfx/javafx-graphics/12.0.1/javafx-graphics-12.0.1-mac.jar:/Users/bhumit/.m2/repository/org/openjfx/javafx-base/12.0.1/javafx-base-12.0.1.jar:/Users/bhumit/.m2/repository/org/openjfx/javafx-base/12.0.1/javafx-base-12.0.1-mac.jar:/Users/bhumit/.m2/repository/org/openjfx/javafx-fxml/12/javafx-fxml-12.jar:/Users/bhumit/.m2/repository/org/openjfx/javafx-fxml/12/javafx-fxml-12-mac.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/14.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/bhumit/Desktop/CS 342/Projects/bpate62Project3/project3Server/target/surefire/surefirebooter5609934829647315068.jar /Users/bhumit/Desktop/CS 342/Projects/bpate62Project3/project3Server/target/surefire 2020-11-01T12-49-45_317-jvmRun1 surefire7746008307363816485tmp surefire_014519406932383850852tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/bhumit/Desktop/CS 342/Projects/bpate62Project3/project3Server/target/test-classes:/Users/bhumit/Desktop/CS 342/Projects/bpate62Project3/project3Server/target/classes:/Users/bhumit/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/Users/bhumit/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/Users/bhumit/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/bhumit/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/bhumit/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/Users/bhumit/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/Users/bhumit/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/Users/bhumit/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/Users/bhumit/.m2/repository/org/openjfx/javafx-controls/12.0.1/javafx-controls-12.0.1.jar:/Users/bhumit/.m2/repository/org/openjfx/javafx-controls/12.0.1/javafx-controls-12.0.1-mac.jar:/Users/bhumit/.m2/repository/org/openjfx/javafx-graphics/12.0.1/javafx-graphics-12.0.1.jar:/Users/bhumit/.m2/repository/org/openjfx/javafx-graphics/12.0.1/javafx-graphics-12.0.1-mac.jar:/Users/bhumit/.m2/repository/org/openjfx/javafx-base/12.0.1/javafx-base-12.0.1.jar:/Users/bhumit/.m2/repository/org/openjfx/javafx-base/12.0.1/javafx-base-12.0.1-mac.jar:/Users/bhumit/.m2/repository/org/openjfx/javafx-fxml/12/javafx-fxml-12.jar:/Users/bhumit/.m2/repository/org/openjfx/javafx-fxml/12/javafx-fxml-12-mac.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/bhumit"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/14.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/bhumit/Desktop/CS 342/Projects/bpate62Project3/project3Server"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/bhumit/Desktop/CS 342/Projects/bpate62Project3/project3Server/target/surefire/surefirebooter5609934829647315068.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14.0.1+14"/>
+    <property name="user.name" value="bhumit"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.6"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/bhumit/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/34/5m19y9dd473b7kp6ct5xp9hw0000gn/T/"/>
+    <property name="java.version" value="14.0.1"/>
+    <property name="user.dir" value="/Users/bhumit/Desktop/CS 342/Projects/bpate62Project3/project3Server"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/bhumit/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="14.0.1+14"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="generateDeckTest1" classname="MyTest" time="0.016"/>
+  <testcase name="generateDeckTest2" classname="MyTest" time="0"/>
+  <testcase name="whoWonTest1" classname="MyTest" time="0.001"/>
+  <testcase name="whoWonTest2" classname="MyTest" time="0.001"/>
+  <testcase name="handTotalTest1" classname="MyTest" time="0.001"/>
+  <testcase name="handTotalTest2" classname="MyTest" time="0"/>
+  <testcase name="shuffleDeck1" classname="MyTest" time="0.001"/>
+  <testcase name="shuffleDeck2" classname="MyTest" time="0.001"/>
+  <testcase name="dealHandtest1" classname="MyTest" time="0.001"/>
+  <testcase name="dealHandtest2" classname="MyTest" time="0"/>
+  <testcase name="evaluatePlayerDrawTest1" classname="MyTest" time="0"/>
+  <testcase name="evaluatePlayerDrawTest2" classname="MyTest" time="0.001"/>
+  <testcase name="card_test1" classname="MyTest" time="0.001"/>
+  <testcase name="card_test2" classname="MyTest" time="0"/>
+  <testcase name="evaluateBankerDrawTest1" classname="MyTest" time="0"/>
+  <testcase name="evaluateBankerDrawTest2" classname="MyTest" time="0.001"/>
+  <testcase name="drawOneTest1" classname="MyTest" time="0.001"/>
+  <testcase name="drawOneTest2" classname="MyTest" time="0.001"/>
+  <testcase name="deckSizeTest1" classname="MyTest" time="0"/>
+  <testcase name="deckSizeTest2" classname="MyTest" time="0.001"/>
+</testsuite>
