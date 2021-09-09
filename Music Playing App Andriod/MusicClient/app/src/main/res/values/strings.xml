@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MusicClient</string>
+    <string name="unbindButton">UnBind</string>
+    <string name="bindButton">Bind</string>
+    <string name="initText">Not Bounded</string>
+    <string name="listHeader">Select a Song to Play</string>
+    <string name="spinnerHeader">Select a Song Number to Get More Information</string>
+    <string name="getAllButton">Request List of Songs</string>
+    <string name="playPauseButton">Play/Pause</string>
+    <string name="stopBtn">Stop</string>
+    <string name="todo">TODO</string>
+    <string name="initIndexString">Current Song : None</string>
+    <string name="instructView">Clicking on a Song Item Immediately Starts Playing the Song</string>
+</resources>

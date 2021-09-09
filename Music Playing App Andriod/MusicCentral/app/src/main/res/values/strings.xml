@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MusicCentral</string>
+    <string name="music_service">Music Service</string>
+
+    <string-array name="artistList">
+        <item>Ed Sheeran</item>
+        <item>Post Malone</item>
+        <item>Dua Lipa</item>
+        <item>Oasis</item>
+        <item>Coldplay</item>
+        <item>Imagine Dragons</item>
+    </string-array>
+
+    <string-array name="songNameList">
+        <item>Shape of You</item>
+        <item>Better Now</item>
+        <item>Levitating</item>
+        <item>Wonderwall</item>
+        <item>Viva la Vida</item>
+        <item>Believer</item>
+    </string-array>
+
+    <string-array name="songUrls">
+        <item>11VO3YxiJQxQTp3f0SMCLRs3CO4Upj1Br</item>
+        <item>16nJNeHpb5fv41x13CZm4O84BXo8EueZx</item>
+        <item>11efAPf5rcyC2GXFu3cvhYtSvRQcpA04f</item>
+        <item>1t8g-dBfPgzR-2TIltkw72R_cqbMPMKl_</item>
+        <item>1Oh4lbu2MXcpkgR9b8nCK3Lf3QtQyWZDn</item>
+        <item>1U32d6vy9lGFxx3DskNlZg4MfCVuWn6pT</item>
+    </string-array>
+
+
+</resources>
